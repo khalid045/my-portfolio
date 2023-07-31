@@ -8,9 +8,9 @@ const Header = () => {
   const handleClickLinkin = () => {
     window.location.href = "https://www.linkedin.com/in/sarfo-khalid-aa2542236";
   };
-  const handleClickTwiter = () => {
-    window.location.href = "#";
-  };
+  // const handleClickTwiter = () => {
+  //   window.location.href = "#";
+  // };
   const handleClickFrontend = () => {
     window.location.href = "https://www.frontendmentor.io/profile/khalid045";
   };
@@ -24,9 +24,9 @@ const Header = () => {
   const socialMedia = () => {
     window.location.href = " https://github.com/khalid045/social-media-app.git";
   };
-  const socialMediaCode = () => {
-    window.location.href = " #";
-  };
+  // const socialMediaCode = () => {
+  //   window.location.href = " #";
+  // };
   const todoAPP = () => {
     window.location.href = " https://gorgeous-elf-c8262d.netlify.app/";
   };
