@@ -43,7 +43,7 @@ const Header = () => {
 
   return (
     <div className="grid grid-cols-1 w-[343px] h-[160px] md:w-[708px] lg:w-[1440px]  bg-transparent text-white justify-center items-center ">
-      <div className=" ml-[25%] w-[174px] h-[80px] font-space-grotest  mb-4 md:w-[708px] md:flex md:justify-between md:items-center md:ml-0 md:p-5 lg:w-[1440px] lg:justify-between lg:gap-10 ">
+      <div className="ml-[25%] w-[174px] h-[80px] font-space-grotest  mb-4 md:w-[708px] md:flex md:justify-between md:items-center md:ml-0 md:p-5 lg:w-[1440px] lg:justify-between lg:gap-10 ">
         <div className="flex justify-center m-2 font-extrabold md:text-[30px] lg:text-[50px] lg:m-[60px]">
           Khalid_045
         </div>
@@ -229,7 +229,7 @@ const Header = () => {
               </div>
               <div className=" flex gap-6 m-3 cursor-pointer ">
                 <button
-                  onCanPlay={todoAPP}
+                  onClick={todoAPP}
                   className="border-b-2 border-green-500 lg:absolute lg:top-[110px] lg:left-[180px] lg:text-[25px] lg:text-green-700 lg:hover:text-red-700"
                 >
                   VIEW PROJECT
